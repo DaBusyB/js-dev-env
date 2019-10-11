@@ -1,0 +1,15 @@
+# EditorConfig helps maintain consistent styles for multiple devs working on the same projet across various editors and IDEs
+# Must be placed in projects root folder
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false

@@ -2,4 +2,6 @@
 
 -package manager gives us a standardized method for sharing files code
 
--create a package.json file. package.json is node's package manifest. this is where we will find all the npm packages we are using as well as npm scripts 
+-create a package.json file. package.json is node's package manifest. this is where we will find all the npm packages we are using as well as npm scripts
+
+-install all necessary node modules

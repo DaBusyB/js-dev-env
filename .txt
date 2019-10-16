@@ -14,4 +14,8 @@
 
 - transpilers allow us to write in future versions of JS or in 1 of over a hundred of languages that compile down to JS.
 - the two most popular transpilers are Babel(breaks things down to ES5) and Typescript(superset of JS with it's own added features)
-- add .babelrc to root dir and add presets object 
+- add .babelrc to root dir and add presets object
+
+- a bundler take s all the JS files and packages them for a target env like a browser or node
+- they alse provide lots of other features
+- popular options are browserify and webpack

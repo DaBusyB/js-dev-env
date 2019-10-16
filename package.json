@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "description": "JavaScript development environment",
     "scripts": {
-      // babel-node transpiles the code before passing it on to node
       "prestart": "babel-node buildScripts/startMessage.js",
       "start": "npm-run-all --parallel open:src",
       "open:src": "babel-node buildScripts/srcServer.js"

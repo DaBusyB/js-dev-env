@@ -4,4 +4,14 @@
 
 -create a package.json file. package.json is node's package manifest. this is where we will find all the npm packages we are using as well as npm scripts
 
--install all necessary node modules
+-install all necessary node
+
+- share work in progress with Local Tunnel, NGROK, Now or Surge
+
+- Grunt, Gulp, npm scripts for automation the dev environment and build process
+- npm-run-all allows us to run more that one script at a time in crossplatform mode. can put this in start, prestart or poststart or add it to a key and
+- adding --parallel followed by the key of any other scripts you want to run will allow scripts to be run at the same time.
+
+- transpilers allow us to write in future versions of JS or in 1 of over a hundred of languages that compile down to JS.
+- the two most popular transpilers are Babel(breaks things down to ES5) and Typescript(superset of JS with it's own added features)
+- add .babelrc to root dir and add presets object 

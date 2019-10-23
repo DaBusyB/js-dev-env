@@ -20,3 +20,11 @@
 - a bundler take s all the JS files and packages them for a target env like a browser or node
 - they alse provide lots of other features
 - popular options are browserify and webpack
+
+- to debug the transpiled bundles think about using sourcemaps
+- sourcemaps map code back to original source
+- a sourcemap is already defined in the webpack config file
+- put debugger where I would like the breakpoint to hit and view break in dev tools
+
+- a linter helps avoid mistakes and enforce consistency
+

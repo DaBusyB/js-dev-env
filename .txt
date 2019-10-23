@@ -28,3 +28,12 @@
 
 - a linter helps avoid mistakes and enforce consistency
 
+- automated unit testing - testing small units of code
+- some libraries come with an assertion library
+- assertion a way to declare what you expect
+- a helper library
+- run on save
+
+- integration tests - testing multiple units
+- run on demand on or in QA
+

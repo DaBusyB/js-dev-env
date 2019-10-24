@@ -37,3 +37,10 @@
 - integration tests - testing multiple units
 - run on demand on or in QA
 
+- CI server- continuous integration
+- travis(hosted), jenkins(host on my own), appveyor(windows env) are the most popular
+- the moment there is a commit it automatically runs a build, runs tests and ensures they pass, can reject commits if code coverage is low, can automate deployment
+- quickly catches mistakes
+- confirmation that committed code from team works as expected on another machine
+- notifies us when someone breaks the build
+

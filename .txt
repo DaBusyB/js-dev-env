@@ -44,3 +44,12 @@
 - confirmation that committed code from team works as expected on another machine
 - notifies us when someone breaks the build
 
+-http calls
+-ways to make calls include node(built in http - basic low level, request - high lever), browser(XHR, jQuery, frameworks - Angular, Fetch) and both(ispmorphic-Fetch - runs on server with node and in browser, xhr, SuperAgent, Axios)) just depends on where the app will be running
+-centralize api calls - 1 spot. This is good for:
+  - configuring all calls
+  - handle preloaders and errors
+  - provides a single seam for mocking
+
+-mock http calls are necessary bc
+

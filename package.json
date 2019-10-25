@@ -13,6 +13,9 @@
   },
   "author": "Brandi Apetsi",
   "license": "MIT",
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
   "dependencies": {
     "babel-node": "0.0.1-security",
     "fsevents": "^2.1.1",

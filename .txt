@@ -1,10 +1,10 @@
--we installed EditorConfig so that formatting is consistent among all devs despite their IDE settings
+- we installed EditorConfig so that formatting is consistent among all devs despite their IDE settings
 
--package manager gives us a standardized method for sharing files code
+- package manager gives us a standardized method for sharing files code
 
--create a package.json file. package.json is node's package manifest. this is where we will find all the npm packages we are using as well as npm scripts
+- create a package.json file. package.json is node's package manifest. this is where we will find all the npm packages we are using as well as npm scripts
 
--install all necessary node
+- install all necessary node
 
 - share work in progress with Local Tunnel, NGROK, Now or Surge
 
@@ -44,12 +44,22 @@
 - confirmation that committed code from team works as expected on another machine
 - notifies us when someone breaks the build
 
--http calls
--ways to make calls include node(built in http - basic low level, request - high lever), browser(XHR, jQuery, frameworks - Angular, Fetch) and both(ispmorphic-Fetch - runs on server with node and in browser, xhr, SuperAgent, Axios)) just depends on where the app will be running
--centralize api calls - 1 spot. This is good for:
+- http calls
+- ways to make calls include node(built in http - basic low level, request - high lever), browser(XHR, jQuery, frameworks - Angular, Fetch) and both(ispmorphic-Fetch - runs on server with node and in browser, xhr, SuperAgent, Axios)) just depends on where the app will be running
+- centralize api calls - 1 spot. This is good for:
   - configuring all calls
   - handle preloaders and errors
   - provides a single seam for mocking
 
--mock http calls are necessary bc
+- mock http calls are a good idea for
+  - unit testing
+  - get instant response consistently
+  - you can keep working when services are down
+  - rapid prototyping
+  - avoid bottlenecks
+  - work offline
+- if writing unit tests Nock is a good service
+- day to day dev - static json or create web server with api-mock, JSON server, JSON schema faker, Express, Browsersync
+
+
 

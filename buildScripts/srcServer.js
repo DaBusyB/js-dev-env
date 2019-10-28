@@ -3,6 +3,7 @@
 import express from 'express';
 import path from 'path';
 import open from 'open';
+import chalk from 'chalk';
 
 //*after configuring in config file, set up dev server to serve webpack bundle
 import webpack from 'webpack';
@@ -27,12 +28,12 @@ app.get('/', function (req, res) {
 //mock database
 app.get('/users', function(req, res) {
   res.json([
-    {"id": 1, "firstName": "Bob", "lastName": "Smith", "email": "bobsmith@gmail.com"},
-    {"id": 2, "firstName": "Brenda", "lastName": "Smyth", "email": "bsmyth@gmail.com"},
-    {"id": 2, "firstName": "Billy", "lastName": "Smath", "email": "williamsmath@gmail.com"}
-  ])
-})
+    {"id": 1, "firstName":"Bob", "lastName":"Smith", "email":"bobsmith@gmail.com"},
+    {"id": 2, "firstName":"Brenda", "lastName":"Smyth", "email":"bsmyth@gmail.com"},
+    {"id": 3, "firstName":"Billy", "lastName":"Smath", "email":"williamsmath@gmail.com"}
+  ]);
+});
 
 app.listen(port, function(err) {
-  err ? console.log(err) : open('http://localhost:' + port)
+  err ? console.log(chalk.purple(err)) : open('http://localhost:' + port)
 });

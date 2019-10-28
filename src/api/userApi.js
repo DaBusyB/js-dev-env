@@ -2,6 +2,9 @@
 //polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it
 import 'whatwg-fetch';
 import chalk from 'chalk';
+import getBaseUrl from './baseUrl';
+
+const baseUrl = getBaseUrl();
 
 //public function
 export function getUsers() {
@@ -11,7 +14,7 @@ export function getUsers() {
 //private function
 //fetch, promise resolution, and error handling are abstracted away in this function
 function get(url) {
-  return fetch(url).then(onSuccess, onError);
+  return fetch(baseUrl + url).then(onSuccess, onError);
 }
 
 //private function

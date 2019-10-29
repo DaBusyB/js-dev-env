@@ -1,4 +1,4 @@
 import chalk from 'chalk';
 /* eslint-disable no-console */
 
-console.log(chalk.orange("Starting app in dev mode..."))
+console.log(chalk.blue("Starting app in dev mode..."))

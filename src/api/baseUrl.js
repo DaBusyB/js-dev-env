@@ -1,7 +1,7 @@
 //this is the logic that points the api to either the mock api or the real one served by express
 
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001' : '/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001' : 'https://fathomless-mountain-84345.herokuapp.com/';
 }
 
 function getQueryStringParameterByName(name, url) {

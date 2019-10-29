@@ -64,4 +64,16 @@
 - minification speeds up page loads and saves bandwidth
 - removes all the things humans care about like comments, whitespace and new lines, etc and just leaves the stuff that computers need.
 
+- cache busting saves bandwidth and avoids unnecessary http request
+- JS bundle wont expire for a year after someone downloads JS file
+- can force requests for latest version
+
+- seperate UI and api
+- only UI will deploy
+- seperation of concerns
+- cheap UI hosting (AWS, heroku, github pages, surge, azure, firebase)
+- serve UI via a content delivery network (CDN)
+- use the API tech you like (any backend language)
+
+- update projects or dev env with github, yeoman, or npm through automation
 

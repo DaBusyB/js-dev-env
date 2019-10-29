@@ -1,4 +1,4 @@
-//this file  will configure our webserver that will serve up the files in othe src directory
+//this is not for production...just for serving app to local machine
 
 /* eslint-disable no-console */
 

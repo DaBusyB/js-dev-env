@@ -13,3 +13,5 @@ function getQueryStringParameterByName(name, url) {
    if(!results[2]) return '';
    return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
+
+// type /?useMockApi=true after http://localhost:3000 and mock api data will show

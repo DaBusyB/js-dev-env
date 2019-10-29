@@ -1,4 +1,4 @@
-//this is not for production...just for serving app to local machine
+//this is not for production...just for serving app to local machine to confirm it works
 
 /* eslint-disable no-console */
 
@@ -21,6 +21,7 @@ app.get('/', function (req, res) {
 });
 
 //mock database
+//would normally hit real data in production env
 app.get('/users', function(req, res) {
   res.json([
     {"id": 1, "firstName":"Bob", "lastName":"Smith", "email":"bobsmith@gmail.com"},

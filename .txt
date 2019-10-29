@@ -61,5 +61,7 @@
 - if writing unit tests Nock is a good service
 - day to day dev - static json or create web server with api-mock, JSON server, JSON schema faker, Express, Browsersync
 
+- minification speeds up page loads and saves bandwidth
+- removes all the things humans care about like comments, whitespace and new lines, etc and just leaves the stuff that computers need.
 
 
